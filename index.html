@@ -4,22 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Responsive Portfolio</title>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Scott MacRae</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
-            <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </div>
-        </div>
-      </nav>
+
+<body style="background-color: wheat;">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand bg-info" style="margin-left: 85px; color: white;" href="index.html">Scott MacRae</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+       
+      </div>
+    </nav>
+    <main class="container mt-5 px-5 mb-5">
+        
+        <section class="row">
+            <section class="col-sm-12" style="background-color: coral;">
+                <h1 style="color: white; padding-left: 20px;">About Me!</h1>
+                <img src="Assets/Images/aboutMe.jpg" alt="AboutMe" class="img-fluid mr-2 mw-100" >
+                <p>My name is Scott MacRae. I just recently moved to Charlotte. For the past few years I have been in the brewing industry. Until recently I have been on the produciton side. I have worked for three of the top ten largest craft brewers in the nation. Sierra Nevada, New Belgium and Stone. When I finish the coding bootcamp I hope to take my new skills back into the brewing industry. It is an ever evolving industry and the skill will come in hand. </p>
+        
+                <p>I feel like a jack of all trades. I've taught, I am a firefighter, i've been in nursing school, I have biology and a brewing degree. There are many other things I've done in life.  Now it's time to be a coder. </p>
+            </section>
+        </section>
+    </main>
+
+    <footer class=" mt-auto py-2 card-footer text-left fixed-bottom" style="background-color: rgb(21, 181, 192); border-top: 5px solid; border-color: coral; color: white;"> &copy; Copyright 2020</footer> 
+
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
